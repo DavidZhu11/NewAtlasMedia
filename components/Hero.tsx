@@ -37,12 +37,12 @@ const Hero: React.FC = () => {
 
                 {/* Buttons */}
                 <div className="flex flex-col sm:flex-row items-center justify-center gap-5 w-full sm:w-auto mb-20">
-                    <button aria-label="Contact us to discuss partnership" className="group h-16 pl-10 pr-3 rounded-full bg-white text-black text-lg font-bold transition-all hover:bg-slate-200 hover:scale-[1.02] flex items-center justify-between min-w-[240px] shadow-[0_0_50px_-10px_rgba(255,255,255,0.3)]">
+                    <a href="https://calendly.com/brendan-jointgrowthpartners/30min" target="_blank" rel="noopener noreferrer" aria-label="Contact us to discuss partnership" className="group h-16 pl-10 pr-3 rounded-full bg-white text-black text-lg font-bold transition-all hover:bg-slate-200 hover:scale-[1.02] flex items-center justify-between min-w-[240px] shadow-[0_0_50px_-10px_rgba(255,255,255,0.3)]">
                         Let's Talk
                         <span className="h-12 w-12 bg-black rounded-full flex items-center justify-center ml-6 group-hover:rotate-45 transition-transform duration-300">
                             <span className="material-symbols-outlined text-white text-xl">arrow_forward</span>
                         </span>
-                    </button>
+                    </a>
                     <button aria-label="View our case studies" className="h-16 px-10 rounded-full border border-white/10 bg-white/5 text-lg font-medium text-white hover:bg-white/10 transition-all hover:border-white/20 backdrop-blur-sm min-w-[240px]">
                         View Case Studies
                     </button>

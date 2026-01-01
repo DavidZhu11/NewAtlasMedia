@@ -25,10 +25,12 @@ const CTA: React.FC = () => {
           <h3 className="text-3xl font-bold text-white mb-3">Ready to scale?</h3>
           <p className="text-slate-400 mb-8 text-base">Strictly limited to 5 qualified businesses per month.</p>
 
-          <button aria-label="Book a growth gap audit call" className="w-full sm:w-auto bg-brand-purple hover:bg-brand-purpleDark text-white font-bold px-10 py-5 rounded-full flex items-center justify-center gap-3 transition-all hover:scale-[1.02] shadow-[0_0_30px_rgba(139,92,246,0.3)] whitespace-nowrap text-lg">
+          <a href="https://calendly.com/brendan-jointgrowthpartners/30min" target="_blank" rel="noopener noreferrer" aria-label="Book a growth gap audit call" className="group h-16 pl-10 pr-3 rounded-full bg-white text-black text-lg font-bold transition-all hover:bg-slate-200 hover:scale-[1.02] flex items-center justify-between min-w-[240px] shadow-[0_0_50px_-10px_rgba(255,255,255,0.3)]">
             Book a Growth Gap Audit Call
-            <ArrowRight size={22} />
-          </button>
+            <span className="h-12 w-12 bg-black rounded-full flex items-center justify-center ml-6 group-hover:rotate-45 transition-transform duration-300">
+              <span className="material-symbols-outlined text-white text-xl">arrow_forward</span>
+            </span>
+          </a>
         </div>
       </div>
     </section>
