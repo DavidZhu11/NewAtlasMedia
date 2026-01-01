@@ -20,7 +20,7 @@ const AuthorityBar: React.FC = () => {
           </div>
 
           <div className="flex items-center gap-3">
-            <img src="https://i.postimg.cc/sXs4sg08/Untitled-design-(2).png" alt="Titan Asset Management" className="h-10 w-auto" />
+            <img src="https://i.postimg.cc/QxT9Yrft/Untitled-design-(3).png" alt="Titan Asset Management" className="h-10 w-auto" />
             <div className="text-left">
               <div className="text-white font-bold text-lg leading-none">TITAN</div>
               <div className="text-slate-400 text-xs tracking-widest">ASSET MANAGEMENT</div>
