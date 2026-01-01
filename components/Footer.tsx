@@ -6,9 +6,7 @@ const Footer: React.FC = () => {
     <footer className="bg-black border-t border-white/5 py-12">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row justify-between items-center gap-6">
         <div className="flex items-center gap-2">
-          <div className="w-6 h-6 rounded bg-brand-purple flex items-center justify-center text-white">
-            <Rocket size={14} fill="currentColor" />
-          </div>
+          <img src="https://i.postimg.cc/BbWL4Y63/Untitled-design-(6).png" alt="New Atlas Media" className="h-6 w-auto" />
           <span className="font-bold text-md text-white">New Atlas Media</span>
         </div>
 
