@@ -2,6 +2,8 @@ import React from 'react';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import AuthorityBar from './components/AuthorityBar';
+import CaseStudies from './components/CaseStudies';
+import AboutUs from './components/AboutUs';
 import Mechanism from './components/Mechanism';
 import Partnership from './components/Partnership';
 import InvestmentPitch from './components/InvestmentPitch';
@@ -15,6 +17,8 @@ const App: React.FC = () => {
       <main>
         <Hero />
         <AuthorityBar />
+        <CaseStudies />
+        <AboutUs />
         <Mechanism />
         <Partnership />
         <InvestmentPitch />

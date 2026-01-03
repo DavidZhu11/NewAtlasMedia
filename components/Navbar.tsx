@@ -23,9 +23,8 @@ const Navbar: React.FC = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
-          <div className="flex items-center gap-3 cursor-pointer">
-            <img src="https://i.postimg.cc/BbWL4Y63/Untitled-design-(6).png" alt="New Atlas Media" className="h-10 w-auto" />
-            <span className="text-xl font-bold tracking-tight text-white">New Atlas Media</span>
+          <div className="flex items-center cursor-pointer">
+            <img src="/Header Logo.png" alt="New Atlas Media" className="h-10 w-auto" />
           </div>
 
           {/* Desktop Nav */}
