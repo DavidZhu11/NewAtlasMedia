@@ -38,11 +38,11 @@ const CaseStudies: React.FC = () => {
                         Case Studies
                     </span>
                     <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">
-                        Real Results from <br />
-                        <span className="text-brand-purple">Real Partnerships.</span>
+                        Founders Who Were <br />
+                        <span className="text-brand-purple">Right Where You Are.</span>
                     </h2>
                     <p className="text-lg text-slate-400">
-                        Don't just take our word for it. Hear from founders who have transformed their businesses with our proven systems.
+                        They were stuck, skeptical, and tired of marketing that didn't work. Then they found a system that did.
                     </p>
                 </div>
 

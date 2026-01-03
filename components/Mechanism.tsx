@@ -1,5 +1,5 @@
 import React from 'react';
-import { Microscope, Zap, BarChart3 } from 'lucide-react';
+import { Microscope, Zap, BarChart3, ArrowRight } from 'lucide-react';
 import { FeatureCardProps } from '../types';
 
 const FeatureCard: React.FC<FeatureCardProps> = ({ icon, title, description, step }) => (
@@ -23,11 +23,11 @@ const Mechanism: React.FC = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center max-w-3xl mx-auto mb-20">
           <h2 className="text-3xl md:text-5xl font-bold text-white mb-6">
-            Why You Can't See <br />
-            <span className="text-brand-purple">What's Holding You Back.</span>
+            Why Nothing Has Worked <br />
+            <span className="text-brand-purple">Until Now.</span>
           </h2>
           <p className="text-slate-400 text-lg">
-            When you're running the business, you're too close to see the gaps. We do the forensic deep-dive you don't have time for—and find the exact bottlenecks costing you 6 figures in lost revenue.
+            Most growth advice fails because it's generic. We don't give you a playbook—we diagnose exactly why YOUR business isn't scaling and fix it.
           </p>
         </div>
 
@@ -38,20 +38,20 @@ const Mechanism: React.FC = () => {
           <FeatureCard
             step={1}
             icon={<Microscope size={28} />}
-            title="Find Your Leaks"
-            description="Most founders don't know where they're bleeding revenue. We audit your unit economics, conversion rates, and customer acquisition to pinpoint the exact variables killing your scale."
+            title="Find Your Bottleneck"
+            description="You're probably guessing at what's broken. We use data to find the single constraint holding you back—often something you've overlooked for months."
           />
           <FeatureCard
             step={2}
             icon={<Zap size={28} />}
-            title="Fix What's Broken"
-            description="You don't have time to figure out CRMs, automation, and growth infrastructure. Our team steps in and installs high-leverage systems while you focus on what you do best."
+            title="Fix It For You"
+            description="Unlike consultants who hand you a PDF and disappear, we step into your operations and implement the fix ourselves. No more 'advice' you don't have time to act on."
           />
           <FeatureCard
             step={3}
             icon={<BarChart3 size={28} />}
-            title="Optimize for Profit"
-            description="Growth without profit is just expensive chaos. We run continuous testing and refinement to make sure every dollar you invest returns multiples—sustainably."
+            title="Scale With Confidence"
+            description="Once we've removed the bottleneck, we continuously optimize to ensure your growth is sustainable, profitable, and ready for what's next."
           />
         </div>
       </div>

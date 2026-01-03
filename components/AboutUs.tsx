@@ -37,14 +37,11 @@ const AboutUs: React.FC = () => {
                         About Us
                     </span>
                     <h2 className="text-4xl md:text-5xl font-bold text-white mb-8">
-                        We're Not a Marketing Agency. <br />
-                        <span className="text-brand-purple">We're a Growth Engine.</span>
+                        We've Been <br />
+                        <span className="text-brand-purple">In Your Shoes.</span>
                     </h2>
-                    <p className="text-xl text-slate-300 leading-relaxed mb-6">
-                        Most agencies want retainers. We want results. That's why we're structured as an operating subsidiary of a private equity firm—we think like investors, not marketers.
-                    </p>
-                    <p className="text-lg text-slate-400 leading-relaxed">
-                        We work exclusively with founder-led businesses generating $100k-$500k because we understand the unique challenges of that stage. You're past the startup grind, but not yet at the scale where traditional growth playbooks work. That's our specialty.
+                    <p className="text-xl text-slate-300 leading-relaxed">
+                        Our founding team built and scaled a 7-figure brand before joining Joint Growth Partners. We know the founder grind—the 3am nights, the failed campaigns, the feeling that everyone else has it figured out. That's exactly why we built something different.
                     </p>
                 </div>
 
@@ -52,7 +49,7 @@ const AboutUs: React.FC = () => {
                 <div className="max-w-4xl mx-auto mb-20">
                     <div className="bg-gradient-to-br from-brand-purple/10 to-transparent border border-brand-purple/30 rounded-3xl p-10 md:p-14 text-center">
                         <p className="text-lg md:text-xl text-slate-200 leading-relaxed">
-                            Our team works closely with founders and leadership teams to build marketing systems that drive <span className="text-white font-semibold">real results</span> and support <span className="text-brand-purple font-semibold">sustainable growth</span> over time.
+                            We're not career marketers pretending to understand your business. We're <span className="text-white font-semibold">operators who became growth specialists</span> because we got tired of the same problems you're facing right now.
                         </p>
                     </div>
                 </div>

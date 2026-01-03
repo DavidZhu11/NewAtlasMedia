@@ -14,14 +14,11 @@ const InvestmentPitch: React.FC = () => {
         </div>
 
         <h2 className="text-3xl md:text-5xl font-bold text-white mb-8">
-          You Didn't Build This <span className="text-transparent bg-clip-text bg-gradient-to-r from-yellow-200 to-yellow-600">To Stay Stuck.</span>
+          Beyond Growth—<span className="text-transparent bg-clip-text bg-gradient-to-r from-yellow-200 to-yellow-600">To Investment.</span>
         </h2>
 
-        <p className="text-lg text-slate-400 mb-4 leading-relaxed">
-          Beyond growth—we're building you toward the exit you've been dreaming of, or the freedom to never need one.
-        </p>
-        <p className="text-base text-slate-500 mb-12 leading-relaxed">
-          New Atlas Media is the operational filter for our parent holding company, <strong className="text-slate-400">Joint Growth Partners</strong>. We aren't just looking for clients; we're looking for our next acquisition.
+        <p className="text-lg text-slate-400 mb-12 leading-relaxed">
+          New Atlas Media serves as an operational filter for our parent holding company, <strong>Joint Growth Partners</strong>. We aren't just looking for clients; we are looking for our next acquisition.
         </p>
 
         <div className="grid md:grid-cols-2 gap-6 text-left">
