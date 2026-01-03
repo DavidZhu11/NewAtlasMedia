@@ -11,9 +11,7 @@ interface Testimonial {
 const testimonials: Testimonial[] = [
     {
         quote: "Before working with New Atlas Media, we had strong content but no consistent growth engine. Their team rebuilt our digital strategy from the ground up, refining our positioning, improving audience retention, and driving measurable increases in engagement across all platforms. Within months, we saw clearer brand authority, stronger inbound demand, and a scalable system we could confidently build on. New Atlas Media didn't just market our brand — they professionalized it.",
-        author: "Jeff Phillips",
-        role: "CEO",
-        company: "SportsVenting"
+        author: "Jeff Phillips"
     },
     {
         quote: "Before working with New Atlas Media, we had a solid product but no real identity in the market. Their team helped us clarify our message, refine our positioning, and turn what we were selling into an actual brand people could recognize and trust. They rebuilt our visual presence, tightened our storytelling, and aligned everything with our long term goals. What stood out most was how intentional every decision felt and how clearly they understood our audience. Within months, engagement increased across every channel and inbound interest became consistent instead of random. New Atlas Media did not just improve our marketing, they helped define who we are as a company.",
