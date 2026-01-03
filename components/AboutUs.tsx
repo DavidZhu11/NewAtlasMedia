@@ -41,7 +41,7 @@ const AboutUs: React.FC = () => {
                         <span className="text-brand-purple">In Your Shoes.</span>
                     </h2>
                     <p className="text-xl text-slate-300 leading-relaxed">
-                        Our founding team built and scaled a 7-figure brand before joining Joint Growth Partners. We know the founder grind—the 3am nights, the failed campaigns, the feeling that everyone else has it figured out. That's exactly why we built something different.
+                        Our founding team built and scaled a 7-figure brand before launching New Atlas Media. We know the founder grind—the 3am nights, the failed campaigns, the feeling that everyone else has it figured out. That's exactly why we built something different.
                     </p>
                 </div>
 

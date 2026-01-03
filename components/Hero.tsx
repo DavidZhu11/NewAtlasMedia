@@ -30,13 +30,13 @@ const Hero: React.FC = () => {
 
                 {/* Headline - Pain Focused */}
                 <h1 className="text-5xl sm:text-7xl lg:text-8xl font-black tracking-tighter text-white mb-8 hero-text-glow leading-[0.9] text-center">
-                    Stuck at $300K?<br />
+                    Hitting a Ceiling?<br />
                     <span className="bg-clip-text text-transparent bg-gradient-to-b from-white to-purple-300">We Know Why.</span>
                 </h1>
 
                 {/* Sub-headline - Empathy + Solution */}
-                <p className="text-lg sm:text-xl md:text-2xl text-slate-400 max-w-3xl mb-14 leading-relaxed font-light text-center">
-                    You've tried the agencies, hired the consultants, tested the funnels—and you're still working <span className="text-white font-medium">60-hour weeks</span> for the same revenue. We've audited 100+ founder-led businesses. <span className="text-white font-medium">The bottleneck isn't what you think.</span>
+                <p className="text-lg sm:text-xl md:text-2xl text-slate-400 max-w-2xl mb-14 leading-relaxed font-light text-center">
+                    You've tried the agencies and consultants. We find the actual bottleneck—and fix it for you.
                 </p>
 
                 {/* Buttons - Lower Commitment */}
