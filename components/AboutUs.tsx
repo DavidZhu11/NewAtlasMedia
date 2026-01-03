@@ -37,11 +37,14 @@ const AboutUs: React.FC = () => {
                         About Us
                     </span>
                     <h2 className="text-4xl md:text-5xl font-bold text-white mb-8">
-                        Growth-Focused Marketing <br />
-                        <span className="text-brand-purple">Built for Scale.</span>
+                        We're Not a Marketing Agency. <br />
+                        <span className="text-brand-purple">We're a Growth Engine.</span>
                     </h2>
-                    <p className="text-xl text-slate-300 leading-relaxed">
-                        New Atlas Media is a growth-focused marketing firm built to help ambitious brands scale with clarity, consistency, and long-term vision. We specialize in performance-driven strategy, brand positioning, and execution that turns attention into measurable revenue.
+                    <p className="text-xl text-slate-300 leading-relaxed mb-6">
+                        Most agencies want retainers. We want results. That's why we're structured as an operating subsidiary of a private equity firm—we think like investors, not marketers.
+                    </p>
+                    <p className="text-lg text-slate-400 leading-relaxed">
+                        We work exclusively with founder-led businesses generating $100k-$500k because we understand the unique challenges of that stage. You're past the startup grind, but not yet at the scale where traditional growth playbooks work. That's our specialty.
                     </p>
                 </div>
 

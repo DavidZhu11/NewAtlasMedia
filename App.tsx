@@ -16,11 +16,11 @@ const App: React.FC = () => {
       <Navbar />
       <main>
         <Hero />
+        <AuthorityBar />
         <CaseStudies />
         <Mechanism />
         <Partnership />
         <AboutUs />
-        <AuthorityBar />
         <InvestmentPitch />
         <CTA />
       </main>

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Microscope, Zap, BarChart3, ArrowRight } from 'lucide-react';
+import { Microscope, Zap, BarChart3 } from 'lucide-react';
 import { FeatureCardProps } from '../types';
 
 const FeatureCard: React.FC<FeatureCardProps> = ({ icon, title, description, step }) => (
@@ -23,11 +23,11 @@ const Mechanism: React.FC = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center max-w-3xl mx-auto mb-20">
           <h2 className="text-3xl md:text-5xl font-bold text-white mb-6">
-            We Don't Consult. <br />
-            <span className="text-brand-purple">We Engineer Growth.</span>
+            Why You Can't See <br />
+            <span className="text-brand-purple">What's Holding You Back.</span>
           </h2>
           <p className="text-slate-400 text-lg">
-            Standard consultants give advice. We install infrastructure. We use the exact playbook leveraged by our parent holding company to scale portfolio assets.
+            When you're running the business, you're too close to see the gaps. We do the forensic deep-dive you don't have time for—and find the exact bottlenecks costing you 6 figures in lost revenue.
           </p>
         </div>
 
@@ -38,20 +38,20 @@ const Mechanism: React.FC = () => {
           <FeatureCard
             step={1}
             icon={<Microscope size={28} />}
-            title="Forensic Audit"
-            description="We perform a ground-up analysis of your unit economics, acquisition bottlenecks, and 'revenue leaks'. We don't guess; we identify the exact variables preventing your scale."
+            title="Find Your Leaks"
+            description="Most founders don't know where they're bleeding revenue. We audit your unit economics, conversion rates, and customer acquisition to pinpoint the exact variables killing your scale."
           />
           <FeatureCard
             step={2}
             icon={<Zap size={28} />}
-            title="Hands-on Implementation"
-            description="Our specialists step into your operations and CRM to install high-leverage systems. From automating lead flow to optimizing sales conversion, we do the heavy lifting of implementation for you."
+            title="Fix What's Broken"
+            description="You don't have time to figure out CRMs, automation, and growth infrastructure. Our team steps in and installs high-leverage systems while you focus on what you do best."
           />
           <FeatureCard
             step={3}
             icon={<BarChart3 size={28} />}
-            title="Performance Calibration"
-            description="Once the foundation is set, we initiate continuous A/B testing and refinement cycles to ensure your growth is sustainable, profitable, and ready for institutional capital."
+            title="Optimize for Profit"
+            description="Growth without profit is just expensive chaos. We run continuous testing and refinement to make sure every dollar you invest returns multiples—sustainably."
           />
         </div>
       </div>
