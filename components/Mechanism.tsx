@@ -23,7 +23,7 @@ const Mechanism: React.FC = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center max-w-3xl mx-auto mb-20">
           <h2 className="text-3xl md:text-5xl font-bold text-white mb-6">
-            We Don't Consult. <br/>
+            We Don't Consult. <br />
             <span className="text-brand-purple">We Engineer Growth.</span>
           </h2>
           <p className="text-slate-400 text-lg">
@@ -35,30 +35,24 @@ const Mechanism: React.FC = () => {
           {/* Connector Line */}
           <div className="hidden md:block absolute top-1/2 left-0 w-full h-px bg-gradient-to-r from-transparent via-brand-purple/30 to-transparent -translate-y-1/2 z-0"></div>
 
-          <FeatureCard 
+          <FeatureCard
             step={1}
             icon={<Microscope size={28} />}
             title="Forensic Audit"
             description="We perform a ground-up analysis of your unit economics, acquisition bottlenecks, and 'revenue leaks'. We don't guess; we identify the exact variables preventing your scale."
           />
-          <FeatureCard 
+          <FeatureCard
             step={2}
             icon={<Zap size={28} />}
             title="Hands-on Implementation"
             description="Our specialists step into your operations and CRM to install high-leverage systems. From automating lead flow to optimizing sales conversion, we do the heavy lifting of implementation for you."
           />
-          <FeatureCard 
+          <FeatureCard
             step={3}
             icon={<BarChart3 size={28} />}
             title="Performance Calibration"
             description="Once the foundation is set, we initiate continuous A/B testing and refinement cycles to ensure your growth is sustainable, profitable, and ready for institutional capital."
           />
-        </div>
-
-        <div className="mt-16 text-center">
-            <button className="inline-flex items-center gap-2 text-white border-b border-brand-purple pb-1 hover:text-brand-purple transition-colors">
-                View the technical breakdown <ArrowRight size={16} />
-            </button>
         </div>
       </div>
     </section>

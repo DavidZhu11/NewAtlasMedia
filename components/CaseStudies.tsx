@@ -51,7 +51,7 @@ const CaseStudies: React.FC = () => {
                     {testimonials.map((testimonial, index) => (
                         <div
                             key={index}
-                            className={`group relative bg-white/5 border border-white/10 rounded-3xl p-8 hover:bg-white/[0.07] hover:border-brand-purple/30 transition-all duration-300 ${index === 0 ? 'md:col-span-2 lg:col-span-1' : ''
+                            className={`group relative bg-white/5 border border-white/10 rounded-3xl p-8 hover:bg-white/[0.07] hover:border-brand-purple/30 transition-all duration-300 flex flex-col ${index === 0 ? 'md:col-span-2 lg:col-span-1' : ''
                                 }`}
                         >
                             {/* Quote Icon */}
@@ -60,7 +60,7 @@ const CaseStudies: React.FC = () => {
                             </div>
 
                             {/* Quote */}
-                            <blockquote className="text-slate-300 leading-relaxed mb-8 relative z-10">
+                            <blockquote className="text-slate-300 leading-relaxed mb-8 relative z-10 flex-grow">
                                 "{testimonial.quote}"
                             </blockquote>
 
