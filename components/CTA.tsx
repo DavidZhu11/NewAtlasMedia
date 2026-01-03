@@ -1,5 +1,5 @@
 import React from 'react';
-import { ArrowRight, Clock } from 'lucide-react';
+import { Clock, CheckCircle } from 'lucide-react';
 
 const CTA: React.FC = () => {
   return (
@@ -11,10 +11,10 @@ const CTA: React.FC = () => {
 
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-center">
         <h2 className="text-4xl md:text-6xl font-black text-white mb-8 tracking-tight">
-          Identify Your Hidden Revenue.
+          Find Your Hidden Revenue.
         </h2>
         <p className="text-xl text-slate-300 mb-12 max-w-2xl mx-auto leading-relaxed">
-          We’ve spent years perfecting the systems that take companies from <span className="text-white font-bold">$200k to $1M+</span>. During this 20-minute audit, we’ll show you exactly why you’re stuck and the 3 steps we would take to double your throughput.
+          In a free 20-minute strategy session, we'll analyze your business and show you exactly where you're leaving money on the table—and how to capture it.
         </p>
 
         <div className="bg-black/60 backdrop-blur-xl border border-white/10 rounded-3xl p-10 md:p-14 inline-flex flex-col items-center w-full max-w-2xl shadow-2xl">
@@ -22,11 +22,30 @@ const CTA: React.FC = () => {
             <Clock size={24} />
           </div>
 
-          <h3 className="text-3xl font-bold text-white mb-3">Ready to scale?</h3>
-          <p className="text-slate-400 mb-8 text-base">Strictly limited to 5 qualified businesses per month.</p>
+          <h3 className="text-3xl font-bold text-white mb-3">What You'll Discover:</h3>
 
-          <a href="https://calendly.com/brendan-jointgrowthpartners/30min" target="_blank" rel="noopener noreferrer" aria-label="Book a growth gap audit call" className="group h-16 pl-10 pr-3 rounded-full bg-white text-black text-lg font-bold transition-all hover:bg-slate-200 hover:scale-[1.02] flex items-center justify-between min-w-[240px] shadow-[0_0_50px_-10px_rgba(255,255,255,0.3)]">
-            Book a Growth Gap Audit Call
+          {/* Value Bullets */}
+          <ul className="text-left space-y-3 mb-8 w-full max-w-md">
+            <li className="flex items-start gap-3 text-slate-300">
+              <CheckCircle size={20} className="text-green-500 mt-0.5 flex-shrink-0" />
+              <span>The #1 bottleneck preventing your growth (most founders get this wrong)</span>
+            </li>
+            <li className="flex items-start gap-3 text-slate-300">
+              <CheckCircle size={20} className="text-green-500 mt-0.5 flex-shrink-0" />
+              <span>Your current revenue "leaks" and how to plug them</span>
+            </li>
+            <li className="flex items-start gap-3 text-slate-300">
+              <CheckCircle size={20} className="text-green-500 mt-0.5 flex-shrink-0" />
+              <span>A custom 90-day roadmap to hit your next revenue milestone</span>
+            </li>
+          </ul>
+
+          <p className="text-slate-400 mb-8 text-sm">
+            <span className="text-green-500 font-medium">100% free, zero obligation.</span> Limited to 5 businesses per month.
+          </p>
+
+          <a href="https://calendly.com/brendan-jointgrowthpartners/30min" target="_blank" rel="noopener noreferrer" aria-label="Book a growth gap audit call" className="group h-16 pl-10 pr-3 rounded-full bg-white text-black text-lg font-bold transition-all hover:bg-slate-200 hover:scale-[1.02] flex items-center justify-between min-w-[280px] shadow-[0_0_50px_-10px_rgba(255,255,255,0.3)]">
+            Claim Your Free Audit
             <span className="h-12 w-12 bg-black rounded-full flex items-center justify-center ml-6 group-hover:rotate-45 transition-transform duration-300">
               <span className="material-symbols-outlined text-white text-xl">arrow_forward</span>
             </span>
