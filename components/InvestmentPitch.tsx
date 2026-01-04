@@ -3,7 +3,7 @@ import { Landmark, TrendingUp, Handshake } from 'lucide-react';
 
 const InvestmentPitch: React.FC = () => {
   return (
-    <section id="investment" className="py-16 sm:py-24 bg-gradient-to-b from-brand-dark to-[#0f0518]">
+    <section id="investment" className="py-12 sm:py-20 bg-gradient-to-b from-brand-dark to-[#0f0518]">
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
 
         <div className="inline-block mb-6">

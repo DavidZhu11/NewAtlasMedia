@@ -3,7 +3,7 @@ import { Check } from 'lucide-react';
 
 const Partnership: React.FC = () => {
   return (
-    <section id="partnership" className="py-20 sm:py-32 bg-brand-panel border-y border-white/5 relative overflow-hidden">
+    <section id="partnership" className="py-16 sm:py-24 bg-brand-panel border-y border-white/5 relative overflow-hidden">
       {/* Background Decor */}
       <div className="absolute top-0 right-0 w-[500px] h-[500px] bg-brand-purple/5 rounded-full blur-[120px] pointer-events-none"></div>
 

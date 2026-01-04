@@ -3,7 +3,7 @@ import { Clock, CheckCircle } from 'lucide-react';
 
 const CTA: React.FC = () => {
   return (
-    <section className="py-20 sm:py-32 relative overflow-hidden">
+    <section className="py-16 sm:py-24 relative overflow-hidden">
       {/* Background */}
       <div className="absolute inset-0 bg-brand-purpleDark/20"></div>
       <div className="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/carbon-fibre.png')] opacity-10"></div>

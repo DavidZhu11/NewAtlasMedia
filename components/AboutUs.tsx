@@ -26,7 +26,7 @@ const values = [
 
 const AboutUs: React.FC = () => {
     return (
-        <section id="about" className="py-20 sm:py-32 bg-brand-panel border-y border-white/5 relative overflow-hidden">
+        <section id="about" className="py-16 sm:py-24 bg-brand-panel border-y border-white/5 relative overflow-hidden">
             {/* Background Decor */}
             <div className="absolute bottom-0 left-0 w-[600px] h-[600px] bg-brand-purple/5 rounded-full blur-[150px] pointer-events-none"></div>
 

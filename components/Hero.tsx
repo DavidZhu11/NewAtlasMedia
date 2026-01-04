@@ -6,7 +6,7 @@ const Hero: React.FC = () => {
     };
 
     return (
-        <section className="relative overflow-hidden bg-black min-h-screen flex items-center justify-center pt-20 pb-32">
+        <section className="relative overflow-hidden bg-black min-h-screen flex items-center justify-center pt-20 pb-24">
 
             {/* Background Effects */}
             <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[150%] md:w-[100%] h-[1000px] pointer-events-none opacity-60">

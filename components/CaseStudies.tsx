@@ -25,7 +25,7 @@ const testimonials: Testimonial[] = [
 
 const CaseStudies: React.FC = () => {
     return (
-        <section id="case-studies" className="py-20 sm:py-32 bg-brand-dark relative overflow-hidden">
+        <section id="case-studies" className="py-16 sm:py-24 bg-brand-dark relative overflow-hidden">
             {/* Background Decor */}
             <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[800px] bg-brand-purple/5 rounded-full blur-[150px] pointer-events-none"></div>
 

@@ -19,7 +19,7 @@ const FeatureCard: React.FC<FeatureCardProps> = ({ icon, title, description, ste
 
 const Mechanism: React.FC = () => {
   return (
-    <section id="mechanism" className="py-16 sm:py-24 bg-brand-dark relative">
+    <section id="mechanism" className="py-12 sm:py-20 bg-brand-dark relative">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center max-w-3xl mx-auto mb-12 sm:mb-20 px-2">
           <h2 className="text-2xl sm:text-3xl md:text-5xl font-bold text-white mb-4 sm:mb-6">
