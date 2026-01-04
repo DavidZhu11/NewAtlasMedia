@@ -4,6 +4,12 @@
 /* Smooth scroll behavior */
 html {
   scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+/* Prevent horizontal overflow from background effects */
+body {
+  overflow-x: hidden;
 }
 
 /* Focus visible styles for accessibility */
@@ -14,6 +20,7 @@ html {
 
 /* Reduce motion for users who prefer it */
 @media (prefers-reduced-motion: reduce) {
+
   *,
   *::before,
   *::after {

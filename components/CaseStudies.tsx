@@ -25,31 +25,31 @@ const testimonials: Testimonial[] = [
 
 const CaseStudies: React.FC = () => {
     return (
-        <section id="case-studies" className="py-32 bg-brand-dark relative overflow-hidden">
+        <section id="case-studies" className="py-20 sm:py-32 bg-brand-dark relative overflow-hidden">
             {/* Background Decor */}
             <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[800px] bg-brand-purple/5 rounded-full blur-[150px] pointer-events-none"></div>
 
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
                 {/* Section Header */}
-                <div className="text-center max-w-3xl mx-auto mb-20">
-                    <span className="inline-block text-brand-purple text-sm font-semibold tracking-widest uppercase mb-4">
+                <div className="text-center max-w-3xl mx-auto mb-12 sm:mb-20 px-2">
+                    <span className="inline-block text-brand-purple text-xs sm:text-sm font-semibold tracking-widest uppercase mb-3 sm:mb-4">
                         Case Studies
                     </span>
-                    <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">
+                    <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-white mb-4 sm:mb-6">
                         Founders Who Were <br />
                         <span className="text-brand-purple">Right Where You Are.</span>
                     </h2>
-                    <p className="text-lg text-slate-400">
+                    <p className="text-base sm:text-lg text-slate-400">
                         They were stuck, skeptical, and tired of marketing that didn't work. Then they found a system that did.
                     </p>
                 </div>
 
                 {/* Testimonials Grid */}
-                <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
+                <div className="grid gap-6 sm:gap-8 md:grid-cols-2 lg:grid-cols-3">
                     {testimonials.map((testimonial, index) => (
                         <div
                             key={index}
-                            className={`group relative bg-white/5 border border-white/10 rounded-3xl p-8 hover:bg-white/[0.07] hover:border-brand-purple/30 transition-all duration-300 flex flex-col ${index === 0 ? 'md:col-span-2 lg:col-span-1' : ''
+                            className={`group relative bg-white/5 border border-white/10 rounded-2xl sm:rounded-3xl p-6 sm:p-8 hover:bg-white/[0.07] hover:border-brand-purple/30 transition-all duration-300 flex flex-col ${index === 0 ? 'md:col-span-2 lg:col-span-1' : ''
                                 }`}
                         >
                             {/* Quote Icon */}
@@ -58,13 +58,13 @@ const CaseStudies: React.FC = () => {
                             </div>
 
                             {/* Quote */}
-                            <blockquote className="text-slate-300 leading-relaxed mb-8 relative z-10 flex-grow">
+                            <blockquote className="text-sm sm:text-base text-slate-300 leading-relaxed sm:leading-7 mb-6 sm:mb-8 relative z-10 flex-grow">
                                 "{testimonial.quote}"
                             </blockquote>
 
                             {/* Author */}
-                            <div className="flex items-center gap-4 relative z-10">
-                                <div className="w-12 h-12 rounded-full bg-gradient-to-br from-brand-purple to-brand-purpleDark flex items-center justify-center text-white font-bold text-lg">
+                            <div className="flex items-center gap-3 sm:gap-4 relative z-10">
+                                <div className="w-10 h-10 sm:w-12 sm:h-12 rounded-full bg-gradient-to-br from-brand-purple to-brand-purpleDark flex items-center justify-center text-white font-bold text-base sm:text-lg">
                                     {testimonial.author.charAt(0)}
                                 </div>
                                 <div>

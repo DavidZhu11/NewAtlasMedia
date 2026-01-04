@@ -21,10 +21,10 @@ const Navbar: React.FC = () => {
         }`}
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex items-center justify-between h-20">
+        <div className="flex items-center justify-between h-16 sm:h-20">
           {/* Logo */}
           <div className="flex items-center cursor-pointer">
-            <img src="/header-logo.png" alt="New Atlas Media" className="h-16 w-auto" />
+            <img src="/header-logo.png" alt="New Atlas Media" className="h-12 sm:h-16 w-auto" />
           </div>
 
           {/* Desktop Nav */}
@@ -40,23 +40,23 @@ const Navbar: React.FC = () => {
 
           {/* Mobile Toggle */}
           <button
-            className="md:hidden text-slate-300 hover:text-white"
+            className="md:hidden text-slate-300 hover:text-white p-2 -mr-2"
             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
             aria-label={mobileMenuOpen ? 'Close menu' : 'Open menu'}
             aria-expanded={mobileMenuOpen}
             aria-controls="mobile-menu"
           >
-            {mobileMenuOpen ? <X size={24} /> : <Menu size={24} />}
+            {mobileMenuOpen ? <X size={28} /> : <Menu size={28} />}
           </button>
         </div>
       </div>
 
       {/* Mobile Menu */}
       {mobileMenuOpen && (
-        <div id="mobile-menu" className="md:hidden absolute top-full left-0 right-0 bg-brand-panel border-b border-white/10 p-4 flex flex-col gap-4 shadow-2xl">
-          <a href="#case-studies" className="text-slate-300 hover:text-white" onClick={() => setMobileMenuOpen(false)}>Case Studies</a>
-          <a href="#about" className="text-slate-300 hover:text-white" onClick={() => setMobileMenuOpen(false)}>About Us</a>
-          <a href="https://calendly.com/brendan-jointgrowthpartners/30min" target="_blank" rel="noopener noreferrer" className="w-full bg-brand-purple text-white py-3 rounded-lg font-medium text-center block">
+        <div id="mobile-menu" className="md:hidden absolute top-full left-0 right-0 bg-brand-panel border-b border-white/10 p-5 flex flex-col gap-5 shadow-2xl">
+          <a href="#case-studies" className="text-base text-slate-300 hover:text-white py-2" onClick={() => setMobileMenuOpen(false)}>Case Studies</a>
+          <a href="#about" className="text-base text-slate-300 hover:text-white py-2" onClick={() => setMobileMenuOpen(false)}>About Us</a>
+          <a href="https://calendly.com/brendan-jointgrowthpartners/30min" target="_blank" rel="noopener noreferrer" className="w-full bg-brand-purple text-white py-4 rounded-xl font-medium text-center block text-base mt-2">
             Book a Call
           </a>
         </div>
