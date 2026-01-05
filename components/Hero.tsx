@@ -25,7 +25,7 @@ const Hero: React.FC = () => {
                         <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-500 opacity-75"></span>
                         <span className="relative inline-flex rounded-full h-2.5 w-2.5 bg-green-500"></span>
                     </span>
-                    3 clients scaled past $1M this quarter
+                    Accepting new partners for Q1
                 </div>
 
                 {/* Headline - Pain Focused */}
